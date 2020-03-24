@@ -1,7 +1,10 @@
 # Start
 docker-compose up -d
+
 ./init-mysql.sh
+
 docker-compose down
+
 docker-compose up -d
 
 # Page
